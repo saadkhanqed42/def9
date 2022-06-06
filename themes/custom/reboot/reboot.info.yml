@@ -1,0 +1,26 @@
+# Reboot.info.yml file for Robot Examlpe Theme
+name: Reboot
+type: theme
+libraries:
+  - reboot/global-styling
+  - rebbot/global-scripts
+base theme: classy
+description: 'A great theme for test purpos'
+package: Custom
+core_version_requirement: ^8 || ^9
+
+# Region metadata.
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Seondary Menu'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
+  highlighted: 'Highlighted'
+  featured_top: 'Featured Top'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
